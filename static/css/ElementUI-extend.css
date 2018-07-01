@@ -1,0 +1,24 @@
+/* 加这个样式的原因是因为在手机上点击下拉框的icon时，会有蓝色背景 */
+.el-select .el-input .el-select__caret {
+    pointer-events: none;
+}
+
+.el-message {
+    top: 0;
+    border: 0;
+    width: 100%;
+    border-radius: 0;
+}
+
+.el-tabs__nav-wrap::after {
+    background-color: #D9D9D9;
+    height: 1px;
+}
+
+.el-input-group__append, .el-input-group__prepend {
+    /*background-color: #f2f2f2;*/
+}
+
+.el-input.is-active .el-input__inner, .el-input__inner:focus {
+    border-color: #dcdfe6;
+}
